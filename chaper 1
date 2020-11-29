@@ -41,12 +41,12 @@ Response: {
                                                          ATMOperation: DisplayMessage && ReadInput
                                                          Message: Checking Success, Please Enter amount!
     Command: CommitAmount
-    Params: 1100  --------------------------->
+    Params: 1100        ------------------------------->
                         <------------------------------- ClientOpResult: Fail
                                                          ATMOperation: DisplayMessage && ReadInput
                                                          Message: Your balance is insufficient, Please Enter Again!
     Command: CommitAmount
-    Params: 1000  --------------------------->
+    Params: 1000        ------------------------------->
                         <------------------------------- ClientOpResult: OK
                                                          ATMOperation: DisplayMessage && Count
                                                          Message: Success, Please take off your money!
